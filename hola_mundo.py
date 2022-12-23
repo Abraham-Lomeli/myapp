@@ -1,25 +1,17 @@
-# Un programa que lee una secuencia de números
-# y cuenta cuántos números son pares y cuántos son impares.
-# El programa termina cuando se ingresa un cero.
-
-odd_numbers = 0
-even_numbers = 0
-
-# Lee el primer número.
-number = int(input("Introduce un número o escribe 0 para detener: "))
-
-# 0 termina la ejecución.
-while number != 0:
-    # Verificar si el número es impar.
-    if number % 2 == 1:
-        # Incrementar el contador de números impares odd_numbers.
-        odd_numbers += 1
-    else:
-        # Incrementar el contador de números pares even_numbers.
-        even_numbers += 1
-    # Leer el siguiente número.
-    number = int(input("Introduce un número o escribe 0 para detener: "))
-
-# Imprimir resultados.
-print("Cuenta de números impares:", odd_numbers)
-print("Cuenta de números pares:", even_numbers)
+# Indicar al usuario que ingrese una palabra
+# y asignarlo a la variable user_word.
+user_word = input("Ingrese una palabra:")
+user_word = user_word.upper()
+for letter in user_word:
+    if letter == 'A':
+        continue
+    if letter == 'E':
+        continue
+    if letter == 'I':
+        continue
+    if letter == 'O':
+        continue
+    if letter == 'U':
+        continue
+    print(letter)
+    # Completa el cuerpo del bucle for.

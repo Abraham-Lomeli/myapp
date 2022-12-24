@@ -1,0 +1,25 @@
+# paso 1
+Beatles=[]
+print("Paso 1:", Beatles)
+
+Beatles.append('John Lennon')
+Beatles.append('Paul McCartney')
+Beatles.append('George Harrison')
+# paso 2
+print("Paso 2:", Beatles)
+for i in range(2):
+    n = input("inserte nuevo miembro:")
+    Beatles.append(n)
+    i+=1
+# paso 3
+print("Paso 3:", Beatles)
+del Beatles[3:5]
+# paso 4
+print("Paso 4:", Beatles)
+Beatles.insert(4,'Ringo Starr')
+# paso 5
+print("Paso 5:", Beatles)
+
+
+# probando la longitud de la lista
+print("Los Fav", len(Beatles))

@@ -1,6 +1,6 @@
 my_list = [1,2,3,4,7,13]
 aux = 0
 for i in my_list:
-    aux+= i
-
+    aux+=i
+print(len(my_list))
 print(aux)

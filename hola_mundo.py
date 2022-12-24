@@ -1,17 +1,19 @@
-# Indicar al usuario que ingrese una palabra
-# y asignarlo a la variable user_word.
-user_word = input("Ingrese una palabra:")
-user_word = user_word.upper()
-for letter in user_word:
-    if letter == 'A':
-        continue
-    if letter == 'E':
-        continue
-    if letter == 'I':
-        continue
-    if letter == 'O':
-        continue
-    if letter == 'U':
-        continue
-    print(letter)
-    # Completa el cuerpo del bucle for.
+import math
+import os
+import random
+import re
+import sys
+def main():
+    if n%2 != 0:
+        print("Weird")
+    else:
+        if n<6:
+            print("Not Weird")
+        elif n<21:
+            print("Weird")
+        elif n>20:
+            print("Not Weird")
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    main()

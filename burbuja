@@ -1,0 +1,16 @@
+#El ordenamiento burbuja - versión interactiva
+user_list = []
+num_list = int(input("cuantos elementos quieres en tu lista?:"))
+
+for j in range(num_list):
+    u = int(input("inserte dato:"))
+    user_list.append(u)
+x = True
+while x:
+    x = False
+    for j in range(num_list-1):
+        if user_list[j] > user_list[j+1]:
+            x = True
+            user_list[j],user_list[j+1] = user_list[j+1],user_list[j]
+
+print(user_list)
